@@ -16,3 +16,5 @@ docs/_drafts/
 .DS_Store
 __pycache__/
 *.pyc
+config.bat
+node_modules

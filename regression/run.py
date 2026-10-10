@@ -9,6 +9,8 @@
 判断本身不在这里跑：这套架构里判断外包给运行环境的模型（Claude Code 会话），脚本只负责
 出题、对答案、查数据漂移。答题卷格式：每行 {"id": "...", "answer": "<label>"}。
 """
+import utils.transport
+import utils.session
 import json, os, sys, argparse, time
 from collections import defaultdict
 
